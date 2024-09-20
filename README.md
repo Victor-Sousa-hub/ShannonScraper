@@ -19,7 +19,6 @@ Execução do Script
 Você pode executar o script a partir da linha de comando com diferentes opções:
 
 bash
-Copiar código
 python main.py --assunto "[Assunto desejado]" [--periodico [scielo|arxiv]] [--saida [nome_do_arquivo.csv]]
 Argumentos
 --assunto (obrigatório): O assunto que deseja buscar. Deve ser fornecido entre aspas se contiver espaços.
@@ -35,17 +34,14 @@ Exemplos de Uso
 Para buscar artigos sobre "machine learning" em ambos os periódicos e salvar os resultados em um arquivo CSV:
 
 bash
-Copiar código
 python main.py --assunto "machine learning" --saida resultados.csv
 Para buscar apenas no periódico SciELO:
 
 bash
-Copiar código
 python main.py --assunto "machine learning" --periodico scielo
 Para buscar apenas no periódico Arxiv:
 
 bash
-Copiar código
 python main.py --assunto "machine learning" --periodico arxiv
 Estrutura do Projeto
 main.py: O script principal que realiza o scraping dos artigos.
